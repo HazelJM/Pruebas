@@ -53,7 +53,7 @@ Para desplegar localmente la arquitectura Cliente-Servidor (Base de Datos -> Bac
 
    <img width="981" height="512" alt="image" src="https://github.com/user-attachments/assets/d2d78de1-a5d6-4d61-b4a1-1884e15b55bf" />
 
-
+```
 repositorio-tienda-electronica
 
 ├── app-android/                            # Proyecto móvil nativo en Jetpack Compose
@@ -112,7 +112,7 @@ repositorio-tienda-electronica
 ├── README.md                               # Este archivo
 
 └── LICENSE                                 # Licencia del código fuente
-
+```
 
 ## 📑 Enlace a los documentos en `docs/`
 Toda la documentación técnica exigida para el proyecto se encuentra en el directorio `/docs`. Puedes acceder directamente a través de los siguientes enlaces:
