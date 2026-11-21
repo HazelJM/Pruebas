@@ -52,8 +52,11 @@ Para desplegar localmente la arquitectura Cliente-Servidor (Base de Datos -> Bac
 
 repositorio-tienda-electronica
 ├── app-android/                            # Proyecto móvil nativo en Jetpack Compose
+
 │   ├── app/                                # Módulo principal de la aplicación
+
 │   │   ├── src/main/java/com/example/tienda_electronica/
+
 │   │   │   ├── data/                       # Modelos de datos y DTOs
 │   │   │   ├── ui/                         # Componentes de interfaz de usuario
 │   │   │   │   ├── home/                   # Pantalla principal y navegación
