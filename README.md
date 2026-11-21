@@ -60,7 +60,7 @@ investigacion-tienda-electronica-g2
 ├── app-android/            # Proyecto móvil nativo en Jetpack Compose
 ├── backend-app/            # Servidor API REST, DAO y módulo JMH Benchmark
 ├── docs/                   # Documentación técnica y reportes del proyecto
-│   ├── Diagrama/           # Carpeta con los diagramas del sistema (arquitectura, flujo)
+│   ├── Diagrama/           # Carpeta con los diagramas del sistema (arquitectura)
 │   ├── Documentación_Técnica.pdf # Manual técnico y registro de decisiones
 │   ├── informe_final.md    # Documento principal del informe final en formato Markdown
 │   ├── informe_final.pdf   # Documento principal del informe final exportado a PDF
@@ -74,9 +74,9 @@ investigacion-tienda-electronica-g2
 
 ## 📑 Enlace a los documentos en `docs/`
 Toda la documentación técnica exigida para el proyecto se encuentra en el directorio `/docs`. Puedes acceder directamente a través de los siguientes enlaces:
-* [Diagrama de Arquitectura del Sistema](docs/informe-final.md)
-* [Decisiones de Diseño Arquitectónico (ADR)](./docs/ADR_Consolidados.md)
-* [Documento de Perfil de Proyecto](./docs/Perfil_Investigacion.pdf)
+*[Informe Final](docs/informe-final.md)**: Documento principal y reporte de la investigación.
+*[Documentación Técnica](docs/Documentación_Técnica.pdf)**: Guía de despliegue y ADR Consolidados.
+*[Diagramas del Sistema](docs/Diagrama)**: Carpeta que contiene la arquitectura visual.
 
 ## 👥 Integrantes del Grupo
 | Nombre Completo | Usuario de GitHub |
