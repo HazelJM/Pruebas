@@ -6,7 +6,7 @@
 
 ![Estado](https://img.shields.io/badge/Estado-Entrega%20Final-success)
 ![Versión](https://img.shields.io/badge/Versi%C3%B3n-v1.0-blue)
-![Java](https://img.shields.io/badge/Java-21-orange)
+![Java](https://img.shields.io/badge/Java-25-orange)
 
 ##  Descripción del proyecto
 Este repositorio contiene la investigación y el desarrollo de una aplicación móvil de comercio electrónico enfocada en una tienda de hardware y productos electrónicos. El proyecto busca analizar empíricamente cómo el rendimiento de las operaciones de consulta y gestión de productos influye en el tiempo de respuesta del sistema y en la eficiencia del procesamiento de la información. 
