@@ -5,12 +5,12 @@
 **Asignatura:** Programación III - Sección: 03  
 
 
-## 📖 Descripción del proyecto
+##  Descripción del proyecto
 Este repositorio contiene la investigación y el desarrollo de una aplicación móvil de comercio electrónico enfocada en una tienda de hardware y productos electrónicos. El proyecto busca analizar empíricamente cómo el rendimiento de las operaciones de consulta y gestión de productos influye en el tiempo de respuesta del sistema y en la eficiencia del procesamiento de la información. 
 
 La investigación aporta evidencia técnica (mediante métricas de tiempo y memoria) que permite optimizar la arquitectura de las aplicaciones móviles, mejorando la experiencia de los usuarios y facilitando la administración eficiente de inventarios (productos, precios, características) en escenarios de bases de datos con volúmenes de 100 a 200 registros.
 
-## 📊 Resumen de hallazgos
+##  Resumen de hallazgos
 A través de las pruebas de rendimiento ejecutadas con *JMH Profiler* y la validación en el cliente móvil, se obtuvieron las siguientes conclusiones técnicas:
 * **Acceso a Datos:** La implementación de consultas mediante JDBC (SQL Nativo) presentó una latencia significativamente menor en milisegundos por operación (ms/op) frente al uso de frameworks ORM tradicionales, logrando un control directo sobre la ejecución.
 * **Consumo de Memoria:** Al utilizar volúmenes de 100 a 200 registros, la capa de persistencia en *Kotlin* optimizó el recolector de basura (GC) evitando saturaciones en la memoria del *Heap*.
@@ -25,16 +25,16 @@ A través de las pruebas de rendimiento ejecutadas con *JMH Profiler* y la valid
 * **Entorno de Desarrollo:** IntelliJ IDEA 2026 (con Android Plugin)
 * **Control de Versiones:** Git y GitHub
 
-## ⚙️ Instrucciones de instalación y ejecución
+## Instrucciones de instalación y ejecución
 Para desplegar localmente la arquitectura Cliente-Servidor (Base de Datos -> Backend -> Android), se debe seguir este orden estricto:
 
 ### 1. Base de Datos (MySQL)
-1. Iniciar el servicio local de **MySQL 8.0**.
-2. Ejecutar el script `TiendaTecnologia.sql` incluido en el repositorio. Este script recreará la base de datos `TiendaTecnologia`, generará las 6 tablas normalizadas con sus índices (`idx_producto`) y poblará los datos semilla (100 - 200 registros).
+1. Iniciar XAMPP y ejecutar los servicios de **MySQL** y **TomCat**.
+2. Ejecutar el script `TiendaTecnologia.sql` incluido en el repositorio. Este script recreará la base de datos `TiendaTecnologia`, generará las 6 tablas normalizadas con sus índices (`idx_producto`) y poblará los datos semilla (100 registros).
 
-### 2. Servidor Backend (Kotlin / Java 21)
+### 2. Servidor Backend (Kotlin / Java 25)
 1. En IntelliJ IDEA, abrir el directorio `Proyecto-backend`.
-2. En `File > Project Structure`, asegurar que el SDK está configurado en **Java 21 (OpenJDK 21)**. *(No usar Java 25 para evitar fallos con JMH).*
+2. En `File > Project Structure`, asegurar que el SDK está configurado en **Java 25 (OpenJDK 25)**. 
 3. En el archivo de configuración `ConexionDB.kt`, actualizar el usuario y la contraseña de tu conexión local de MySQL.
 4. Ejecutar `Main.kt` (Play verde) para levantar la API REST. **Mantener este proceso en ejecución**.
 
@@ -69,18 +69,18 @@ investigacion-tienda-electronica-g2
 └── README.md               # Este archivo
 ```
 
-## 📑 Enlace a los documentos en `docs/`
+##  Enlace a los documentos en `docs/`
 Toda la documentación técnica exigida para el proyecto se encuentra en el directorio `/docs`. Puedes acceder directamente a través de los siguientes enlaces:
 
-*[Informe Final](docs/informe-final.md)**: Documento principal y reporte de la investigación.
+**[Informe Final](docs/informe-final.md)**: Documento principal y reporte de la investigación.
 
-*[Informe Final](docs/informe-final.pdf)**: Documento principal en formato pdf.
+**[Informe Final](docs/informe-final.pdf)**: Documento principal en formato pdf.
 
-*[Documentación Técnica](docs/Documentación_Técnica.pdf)**: Guía de despliegue y ADR Consolidados.
+**[Documentación Técnica](docs/Documentación_Técnica.pdf)**: Guía de despliegue y ADR Consolidados.
 
-*[Diagramas del Sistema](docs/Diagrama)**: Carpeta que contiene la arquitectura visual.
+**[Diagramas del Sistema](docs/Diagrama)**: Carpeta que contiene la arquitectura visual.
 
-## 👥 Integrantes del Grupo
+##  Integrantes del Grupo
 | Nombre Completo | Usuario de GitHub |
 | :--- | :--- |
 | Darlyn Julissa Cortez Herrera | [@DarlynCortez](https://github.com/DarlynCortez) |
@@ -91,7 +91,7 @@ Toda la documentación técnica exigida para el proyecto se encuentra en el dire
 | Abner Danilo Morales Fuentes | [@Danilo-4](https://github.com/Danilo-4) |
 | Gerardo Emilio Recinos Miranda | [@g_rm0805](https://github.com/g_rm0805) |
 
-## 📄 Licencia
+##  Licencia
 
 **Licencia MIT**
 
