@@ -74,7 +74,9 @@ investigacion-tienda-electronica-g2
 
 ## 📑 Enlace a los documentos en `docs/`
 Toda la documentación técnica exigida para el proyecto se encuentra en el directorio `/docs`. Puedes acceder directamente a través de los siguientes enlaces:
+
 *[Informe Final](docs/informe-final.md)**: Documento principal y reporte de la investigación.
+*[Informe Final](docs/informe-final.pdf)**: Documento principal en formato pdf.
 *[Documentación Técnica](docs/Documentación_Técnica.pdf)**: Guía de despliegue y ADR Consolidados.
 *[Diagramas del Sistema](docs/Diagrama)**: Carpeta que contiene la arquitectura visual.
 
