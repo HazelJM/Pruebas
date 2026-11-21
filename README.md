@@ -55,62 +55,33 @@ Para desplegar localmente la arquitectura Cliente-Servidor (Base de Datos -> Bac
 
 ```
 repositorio-tienda-electronica
-
 ├── app-android/                            # Proyecto móvil nativo en Jetpack Compose
-
 │   ├── app/                                # Módulo principal de la aplicación
-
 │   │   ├── src/main/java/com/example/tienda_electronica/
-
-
 │   │   │   ├── data/                       # Modelos de datos y DTOs
-
 │   │   │   ├── ui/                         # Componentes de interfaz de usuario
-
 │   │   │   │   ├── home/                   # Pantalla principal y navegación
-
 │   │   │   │   └── theme/                  # Configuración de temas y estilos
-
 │   │   │   ├── CatalogoApi.kt              # Pantalla del catálogo de productos
-
 │   │   │   ├── Crud.kt                     # Pantalla de gestión (CRUD) y ventas
-
 │   │   │   └── MainActivity.kt             # Actividad principal y enrutador
-
 │   │   └── build.gradle.kts                # Configuración de Gradle del módulo
-
 │   ├── build.gradle.kts                    # Configuración de Gradle del proyecto
-
 │   └── settings.gradle.kts                 # Definición de módulos del proyecto
-
 ├── Proyecto-backend/                       # Servidor API REST, DAO y módulo JMH Benchmark
-
 │   ├── src/main/kotlin/                    # Código fuente en Kotlin
-
 │   │   └── api/                            # Lógica principal y controladores
-
 │   │       ├── ConexionDB.kt               # Configuración de conexión a MySQL
-
 │   │       └── ServidorApi.kt              # Servidor web e intermediario (Javalin)
-
 │   ├── target/                             # Archivos de compilación (generado)
-
 │   └── pom.xml                             # Gestión de dependencias y configuración de Maven
-
 ├── docs/                                   # Documentación, ADRs y diagramas
-
 │   ├── diagramas/                          # Diagrama de arquitectura y flujo
-
 │   │   └── Arquitectura.jpeg               # Gráfico visual del sistema
-
 │   ├── ADR_Consolidados.md                 # Registro de decisiones de arquitectura
-
 │   └── Documentación_Técnica.pdf           # Manual técnico del proyecto
-
 ├── TiendaTecnologia.sql                    # Script de creación y población de BD MySQL 8.0
-
 ├── README.md                               # Este archivo
-
 └── LICENSE                                 # Licencia del código fuente
 ```
 
