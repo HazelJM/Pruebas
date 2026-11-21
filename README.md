@@ -59,14 +59,17 @@ investigacion-tienda-electronica-g2
 ├── Proyecto-maven/         # Proyecto backend estructurado con Maven
 ├── app-android/            # Proyecto móvil nativo en Jetpack Compose
 ├── backend-app/            # Servidor API REST, DAO y módulo JMH Benchmark
-├── docs/                   # Documentación y diagramas
-│   ├── diagramas/          # Diagrama de arquitectura y flujo
-│   └── Documentacion_Tecnica.pdf # Registro de decisiones de arquitectura
+├── docs/                   # Documentación técnica y reportes del proyecto
+│   ├── Diagrama/           # Carpeta con los diagramas del sistema (arquitectura, flujo)
+│   ├── Documentación_Técnica.pdf # Manual técnico y registro de decisiones
+│   ├── informe_final.md    # Documento principal del informe final en formato Markdown
+│   ├── informe_final.pdf   # Documento principal del informe final exportado a PDF
+│   └── logo_utec.png       # Logotipo institucional utilizado en la documentación
 ├── out/                    # Archivos compilados y binarios generados por el IDE
 ├── .gitignore              # Archivos y carpetas ignorados por el control de versiones Git
 ├── CHANGELOG.md            # Registro de cambios y actualizaciones del proyecto
 ├── LICENSE                 # Licencia del código fuente
-└── README.md
+└── README.md               # Este archivo
 ```
 
 ## 📑 Enlace a los documentos en `docs/`
