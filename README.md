@@ -4,9 +4,6 @@
 **Proyecto de Investigación - Ciclo 02-2026**  
 **Asignatura:** Programación III - Sección: 03  
 
-![Estado](https://img.shields.io/badge/Estado-Entrega%20Final-success)
-![Versión](https://img.shields.io/badge/Versi%C3%B3n-v1.0-blue)
-![Java](https://img.shields.io/badge/Java-21-orange)
 
 ## 📖 Descripción del proyecto
 Este repositorio contiene la investigación y el desarrollo de una aplicación móvil de comercio electrónico enfocada en una tienda de hardware y productos electrónicos. El proyecto busca analizar empíricamente cómo el rendimiento de las operaciones de consulta y gestión de productos influye en el tiempo de respuesta del sistema y en la eficiencia del procesamiento de la información. 
@@ -76,8 +73,11 @@ investigacion-tienda-electronica-g2
 Toda la documentación técnica exigida para el proyecto se encuentra en el directorio `/docs`. Puedes acceder directamente a través de los siguientes enlaces:
 
 *[Informe Final](docs/informe-final.md)**: Documento principal y reporte de la investigación.
+
 *[Informe Final](docs/informe-final.pdf)**: Documento principal en formato pdf.
+
 *[Documentación Técnica](docs/Documentación_Técnica.pdf)**: Guía de despliegue y ADR Consolidados.
+
 *[Diagramas del Sistema](docs/Diagrama)**: Carpeta que contiene la arquitectura visual.
 
 ## 👥 Integrantes del Grupo
