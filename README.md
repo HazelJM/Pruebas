@@ -16,7 +16,7 @@ A través de las pruebas de rendimiento ejecutadas con *JMH Profiler* y la valid
 * **Consumo de Memoria:** Al utilizar volúmenes de 100 a 200 registros, la capa de persistencia en *Kotlin* optimizó el recolector de basura (GC) evitando saturaciones en la memoria del *Heap*.
 * **Renderizado Móvil:** La adopción del paradigma declarativo *Jetpack Compose* junto con gráficos generados nativamente (Canvas) en la barra de navegación, eliminó el *overhead* de imágenes estáticas, manteniendo una tasa estable de 60 FPS al hacer *scroll* sobre el catálogo.
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 * **Lenguajes:** Java 21 / Kotlin
 * **Frontend Móvil:** Android con Jetpack Compose
 * **Backend:** Spring Boot (API REST), Patrón DAO
@@ -101,7 +101,7 @@ Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
 
 El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
-EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, QUE SURJA DE, O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTROS TRATOS EN EL SOFTWARE.
+EL SOFTWARE SE PROPORCIONA "EN SU ESTADO ACTUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, QUE SURJA DE, O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTROS TRATOS EN EL SOFTWARE.
 
 
 
