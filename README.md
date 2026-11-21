@@ -50,6 +50,10 @@ Para desplegar localmente la arquitectura Cliente-Servidor (Base de Datos -> Bac
 4. Verificar que el SDK de Android apunte a API Level 33 (Android 13).
 5. Seleccionar el módulo `app` y ejecutar (**Run**). El IDE instalará el APK y abrirá el catálogo.
 
+
+   <img width="981" height="512" alt="image" src="https://github.com/user-attachments/assets/d2d78de1-a5d6-4d61-b4a1-1884e15b55bf" />
+
+
 repositorio-tienda-electronica
 
 ├── app-android/                            # Proyecto móvil nativo en Jetpack Compose
