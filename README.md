@@ -74,7 +74,7 @@ investigacion-tienda-electronica-g2
 
 ## 📑 Enlace a los documentos en `docs/`
 Toda la documentación técnica exigida para el proyecto se encuentra en el directorio `/docs`. Puedes acceder directamente a través de los siguientes enlaces:
-* [Diagrama de Arquitectura del Sistema](https://github.com/cessifr-bit/investigacion-tienda-electronica-g2/blob/develop-recovery/docs/informe-final.md)
+* [Diagrama de Arquitectura del Sistema](docs/informe-final.md)
 * [Decisiones de Diseño Arquitectónico (ADR)](./docs/ADR_Consolidados.md)
 * [Documento de Perfil de Proyecto](./docs/Perfil_Investigacion.pdf)
 
